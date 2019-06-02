@@ -1,3 +1,9 @@
 import React, { Fragment, Component } from 'react';
-const HelloWorld = () => <div>Hello World</div>
-module.exports = { HelloWorld }
+class HelloWorld extends React.Component {
+  render() {
+    return (
+      <div>Hello World</div>
+    );
+  }
+}
+export default HelloWorld;
